@@ -1,4 +1,30 @@
+--инициализация
 init
 
+-- инициализация аккаунта
+config --global user.email "xyzrgb123@gmail.com"
+config --global user.name "Alex"
+
+--добавить адрес репозитория
+remote add origin {link}
+
+--посмотреть конфигурацию
+config --list
+
+--переименовать не текущую ветку
+branch -m {old_name} {new_name}
+
+--переименовать текущую ветку
+branch -m main
+
+--добавить все файлы
 add .
-uuu
+
+--добавить снимок состояния (коммит), с указанием имени коммита
+commit -m "имя снимка"
+
+--публикация изменений в конкретной ветке
+push origin main
+
+--публикация изменений в текущей ветке
+push origin main
