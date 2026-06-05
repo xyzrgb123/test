@@ -94,7 +94,4 @@ branch -d {name}
 push origin main
 
 
-изм 1
-изм 2
-
-изм 3
+изменения для t2
